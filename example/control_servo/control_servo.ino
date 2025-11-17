@@ -14,6 +14,6 @@ void setup() {
 
 void loop() {
   pot.calibrate();
-  int q = pot.getMapped(pot.getLower(), pot.getUpper(), 0, 255);
+  int q = pot.getMapped(pot.getLower(), pot.getUpper(), 0, 180);
   servo.write(q);
 }
