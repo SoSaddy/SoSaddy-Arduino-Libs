@@ -120,7 +120,7 @@ void loop() {
   digitalWrite(LED_BUILTIN, timer.get(pattern, pattern_size));
 }
 ```
-</deatails>
+</details>
 
 <details>
 <summary>Список обновлений</summary>
