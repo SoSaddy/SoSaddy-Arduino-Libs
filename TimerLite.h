@@ -8,7 +8,7 @@ class TimerLite {
 	public:
 
 		// === Конструктор ===
-		Timer(uint32_t cooldown = 1000);
+		TimerLite(uint32_t cooldown = 1000);
 
 		// === Методы ===
 
@@ -37,3 +37,4 @@ class TimerLite {
 
 
 #endif
+
