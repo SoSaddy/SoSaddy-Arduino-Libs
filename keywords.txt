@@ -1,4 +1,4 @@
-Timer	KEYWORD1
-get	KEYWORD2
-setCooldown	KEYWORD2
-clear	KEYWORD2
+TimerLite  KEYWORD1
+get  KEYWORD2
+setCooldown  KEYWORD2
+clear  KEYWORD2
