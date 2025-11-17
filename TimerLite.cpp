@@ -29,7 +29,8 @@ void TimerLite::setCooldown(uint32_t cooldown) {
 }
 
 // Обнуление задержки
-void Timer::clear() {
+void TimerLite::clear() {
 	this->_time = millis();
 
 }
+
