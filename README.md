@@ -9,14 +9,14 @@
 # Свойства
 Подключение библиотеки
 ```c++
-#include <Timer.h>
+#include <TimerLite.h>
 ```
 
 Объявление экземпляра
 ```c++
-Timer timer;
+TimerLite timer;
 // или
-Timer timer(2000); // аргументы [задержка]
+TimerLite timer(2000); // аргументы [задержка]
 ```
 
 Методы
@@ -38,9 +38,9 @@ void clear();
 Таймер сообщений в последовательный порт.
 <br>
 ```c++
-#include <Timer.h>
+#include <TimerLite.h>
 
-Timer timer(2000);
+TimerLite timer(2000);
 
 void setup() {
   Serial.begin(9600);
