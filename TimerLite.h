@@ -3,7 +3,7 @@
 
 #include <Arduino.h>
 
-class Timer {
+class TimerLite {
 
 	public:
 
@@ -34,5 +34,6 @@ class Timer {
 		bool _getState(const uint32_t& cooldown);
 
 };
+
 
 #endif
