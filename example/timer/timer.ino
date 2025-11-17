@@ -8,6 +8,6 @@ void setup() {
 
 void loop() {
   if (timer.get()) {
-    Serial.println("Hello, World! ");
+    Serial.println("Hello, World!");
   }
 }
