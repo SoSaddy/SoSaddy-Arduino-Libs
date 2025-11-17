@@ -1,4 +1,4 @@
-## Более продвинутый вариант [этой](https://github.com/SoSaddy/SoSaddy-Arduino-Libs/tree/Timer-Lite) библиотеки.
+## Более продвинутый вариант [этой](https://github.com/SoSaddy/SoSaddy-Arduino-Libs/tree/Timer) библиотеки.
 
 <details>
 <summary>Библиотека</summary>
