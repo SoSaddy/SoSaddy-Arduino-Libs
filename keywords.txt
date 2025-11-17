@@ -1,0 +1,12 @@
+VariableResistor	KEYWORD1
+get	KEYWORD2
+getMapped	KEYWORD2
+getPercent	KEYWORD2
+getLower	KEYWORD2
+getUpper	KEYWORD2
+setBounds	KEYWORD2
+setLower	KEYWORD2
+setUpper	KEYWORD2
+calibrate	KEYWORD2
+resetCalibrate	KEYWORD2
+setPin	KEYWORD2
