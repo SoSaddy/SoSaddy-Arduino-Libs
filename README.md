@@ -1,3 +1,5 @@
+## Облегчённый вариант этой библиотеки можно посмотреть [здесь](https://github.com/SoSaddy/SoSaddy-Arduino-Libs/tree/Timer-Lite).
+
 <details>
 <summary>Библиотека</summary>
 
