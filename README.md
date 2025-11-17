@@ -1,1 +1,60 @@
-# SoSaddy-Arduino-Libs
+## Более продвинутый вариант [этой](https://github.com/SoSaddy/SoSaddy-Arduino-Libs/tree/Timer-Lite) библиотеки.
+
+<details>
+<summary>Библиотека</summary>
+
+# Назначение библиотеки
+Таймер не прерывает поток, как это делает delay().
+
+# Свойства
+Подключение библиотеки
+```c++
+#include <Timer.h>
+```
+
+Объявление экземпляра
+```c++
+Timer timer;
+// или
+Timer timer(2000); // аргументы [задержка]
+```
+
+Методы
+```c++
+// Возвращает состояние
+bool get();
+
+// Возвращает состояние (по указанной в аргументе задержке)
+bool get(uint32_t& cooldown);
+
+// Установка задержки
+void setCooldown(uint32_t cooldown);
+
+// Синхронизирует задержку (сброс)
+void clear();
+```
+
+# Пример работы таймера
+Таймер сообщений в последовательный порт.
+<br>
+```c++
+#include <Timer.h>
+
+Timer timer(2000);
+
+void setup() {
+  Serial.begin(9600);
+}
+
+void loop() {
+  if (timer.get()) {
+    Serial.println("Hello, World!");
+  }
+}
+```
+</details>
+
+<details>
+<summary>Список обновлений</summary>
+Тут пусто.
+</details>
