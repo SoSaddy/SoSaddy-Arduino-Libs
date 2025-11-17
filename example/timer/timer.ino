@@ -1,6 +1,6 @@
-#include <Timer.h>
+#include <TimerLite.h>
 
-Timer timer(2000);
+TimerLite timer(2000);
 
 void setup() {
   Serial.begin(9600);
