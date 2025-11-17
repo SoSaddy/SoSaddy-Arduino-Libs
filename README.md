@@ -30,7 +30,7 @@ bool get(uint32_t& cooldown);
 // Возвращает состояние (по ссылке в аргументе на массив-паттерн)
 bool get(uint32_t* pattern, size_t size);
 
-// Сстановка режима: AS_SWITCH, AS_TRIGGER
+// Установка режима: AS_SWITCH, AS_TRIGGER
 void setMode(uint8_t mode);
 
 // Установка задержки
