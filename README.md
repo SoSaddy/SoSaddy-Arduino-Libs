@@ -1,4 +1,4 @@
-# Перменный резистор
+# Переменный резистор
 ## Облегчённый вариант этой библиотеки можно посмотреть [здесь](https://github.com/SoSaddy/SoSaddy-Arduino-Libs/tree/Variable-Resistor-Lite).
 
 <details>
