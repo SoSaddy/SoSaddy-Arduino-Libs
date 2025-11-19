@@ -7,6 +7,9 @@
 <br>• [Таймер (облегчённый)](https://github.com/SoSaddy/SoSaddy-Arduino-Libs/tree/Timer-Lite)
 <br>• [Переменный резистор](https://github.com/SoSaddy/SoSaddy-Arduino-Libs/tree/Variable-Resistor)
 <br>• [Переменный резистор (облегчённый)](https://github.com/SoSaddy/SoSaddy-Arduino-Libs/tree/Variable-Resistor-Lite)
+<br>• [Кнопка](https://github.com/SoSaddy/SoSaddy-Arduino-Libs/tree/Button)
 
 # Список библиотек в процессе
-<br>• Кнопка
+<br>• 
+<br>• 
+<br>• 
