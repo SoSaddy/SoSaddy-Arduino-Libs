@@ -3,9 +3,9 @@
 Button btn;
 
 void setup() {
-  btn.setPin(5);            // установка пина
-  btn.setDebounceDelay(25); // установка защитной задержки от дребезга 25мс
-  btn.setToggleMode(true);  // включить режим переключения
+  btn.setPin(5, INPUT_PULLUP);// установка пина
+  btn.setDebounceDelay(25);   // установка защитной задержки от дребезга 25мс
+  btn.setToggleMode(true);    // включить режим переключения
   pinMode(LED_BUILTIN, OUTPUT);
 }
 
