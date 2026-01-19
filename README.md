@@ -14,7 +14,7 @@
 
 Объявление экземпляра
 ```c++
-Button(uint8_t pin = 0, bool toggle = false, uint8_t dd = 50);
+Button(uint8_t pin = 0, uint8_t pinmode = INPUT, bool toggle = false, uint8_t dd = 50);
 ```
 ```c++
 Button button;                   // по умолчанию без привязки пинов и режима переключения
@@ -25,7 +25,7 @@ Button button(PIN, TOGGLE, 25);  // оционально: [пин, режим п
 Методы
 ```c++
 // Очистка всех параметров (кроме пина)
-void reset();
+void clearParams();
 
 // Зажатие
 bool isCheck();
@@ -37,7 +37,7 @@ bool isReleased();
 bool isPressed();
 
 // Установить пин
-void setPin(uint8_t pin);
+void setPin(uint8_t pin, uint8_t pinmode);
 
 // Установить режим переключения
 void setToggleMode(bool toggle);
@@ -81,9 +81,9 @@ void loop() {
 Button btn;
 
 void setup() {
-  btn.setPin(5);            // установка пина
-  btn.setDebounceDelay(25); // установка защитной задержки от дребезга 25мс
-  btn.setToggleMode(true);  // включить режим переключения
+  btn.setPin(5, INPUT_PULLUP);// установка пина
+  btn.setDebounceDelay(25);   // установка защитной задержки от дребезга 25мс
+  btn.setToggleMode(true);    // включить режим переключения
   pinMode(LED_BUILTIN, OUTPUT);
 }
 
