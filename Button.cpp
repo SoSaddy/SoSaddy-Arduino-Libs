@@ -1,15 +1,15 @@
 #include <Button.h>
 
 // Конструктор
-Button::Button(uint8_t pin, bool toggle, uint8_t dd) {
-	reset();
-	setPin(pin);
+Button::Button(uint8_t pin, uint8_t pinmode, bool toggle, uint8_t dd) {
+	clearParams();
+	setPin(pin, pinmode);
 	setToggleMode(toggle);
 	setDebounceDelay(dd);
 };
 
 // Очистка всех параметров
-void Button::reset() {
+void Button::clearParams() {
     this->_toggle_flag = false;
     this->_flag = false;
     this->_state_prev = false;
@@ -57,9 +57,9 @@ bool Button::isPressed() {
 };
 
 // Установить пин
-void Button::setPin(uint8_t pin) {
+void Button::setPin(uint8_t pin, uint8_t pinmode) {
 	this->_pin = pin;
-	pinMode(pin, INPUT_PULLUP);
+	pinMode(pin, pinmode);
 };
 
 // Установить режим переключения
