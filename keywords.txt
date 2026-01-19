@@ -1,9 +1,10 @@
 Button	KEYWORD1
-reset	KEYWORD2
+clearParams  KEYWORD2
 isCheck	KEYWORD2
 isReleased	KEYWORD2
 isPressed	KEYWORD2
 setPin	KEYWORD2
 setToggleMode	KEYWORD2
 getToggled	KEYWORD2
+
 setDebounceDelay	KEYWORD2
