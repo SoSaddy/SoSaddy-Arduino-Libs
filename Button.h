@@ -11,12 +11,12 @@ class Button {
 	public:
 
 		// Конструктор
-		Button(uint8_t pin = 0, bool toggle = false, uint8_t dd = DEBOUNCE_DELAY_DEFAULT);
+		Button(uint8_t pin = 0,  uint8_t pinmode = INPUT, bool toggle = false, uint8_t dd = DEBOUNCE_DELAY_DEFAULT);
 
 		// = = = Методы = = =
 
 		// Очистка всех параметров
-		void reset();
+		void clearParams();
 
 		// Зажатие
 		bool isCheck();
@@ -28,7 +28,7 @@ class Button {
 		bool isPressed();
 
 		// Установить пин
-		void setPin(uint8_t pin);
+		void setPin(uint8_t pin, uint8_t pinmode);
 
 		// Установить режим переключения
 		void setToggleMode(bool toggle);
