@@ -19,7 +19,7 @@ Button(uint8_t pin = 0, uint8_t pinmode = INPUT, bool toggle = false, uint8_t dd
 ```c++
 Button button;                   // по умолчанию без привязки пинов и режима переключения
 // или
-Button button(PIN, TOGGLE, 25);  // оционально: [пин, режим переключения, задержка дребезга]
+Button button(PIN, INPUT, TOGGLE, 25);  // оционально: [пин, модификатор, режим переключения, задержка дребезга]
 ```
 
 Методы
